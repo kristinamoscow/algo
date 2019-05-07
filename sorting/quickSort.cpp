@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#include <quickSort.h>
+#include "quickSort.h"
 
 void quickSort(int a[], int low, int high){
     while(low < high){

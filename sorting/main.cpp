@@ -3,7 +3,7 @@
 
 using namespace std;
 
-#include <quickSort.h>
+#include "quickSort.h"
 
 int main(){
     srand(time(0));

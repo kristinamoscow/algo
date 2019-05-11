@@ -13,13 +13,12 @@ void bfs(int& v, const vector<vector<int> >& gr){
 		v = q.front();
 		cout << v << "  ";
 		q.pop();
-		for(int i = 0; i < gr[v].size(); i++){
-			int to = gr[v][i];
+		for(auto to: gr[v]){
 			if(!used[to]){
 				q.push(to);
 				used[to] = true;
 			}
-		}	
+		}
 	}
 
 }
